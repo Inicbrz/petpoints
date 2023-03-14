@@ -141,6 +141,7 @@ html,body{
     margin-left: 22px;
     font-size: 26px;
     color: rgb(255, 255, 255);
+    font-weight: 300;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
 }
 
@@ -213,7 +214,7 @@ html,body{
 
 .sobreadotarpaginainicial{
     position: relative;
-    top: 70px;
+    top: 110px;
 }
 
 /* Area Adote JAVA SCRIPT*/
