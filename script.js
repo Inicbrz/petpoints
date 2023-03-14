@@ -1,8 +1,14 @@
 const botaodenavegacao = document.querySelector('.botaodenavegacao');
 const paineldenavegacao = document.querySelector('.paineldenavegacao');
+const metaaumentar = document.querySelector('#metaaumentar');
+const dadosadocao = document.querySelector('.dadosadocao');
 
 botaodenavegacao.addEventListener('click', ()=> {
     paineldenavegacao.classList.toggle('active');
+});
+
+metaaumentar.addEventListener('click', ()=> {
+    dadosadocao.classList.toggle('active');
 });
 
 
