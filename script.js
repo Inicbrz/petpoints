@@ -1,10 +1,23 @@
 const botaodenavegacao = document.querySelector('.botaodenavegacao');
 const paineldenavegacao = document.querySelector('.paineldenavegacao');
+const topicosnavegacaoimg = document.querySelector('.topicosnavegacaoimg');
+const topicosnavegacaosobre = document.querySelector('.topicosnavegacaosobreativar');
 const metaaumentar = document.querySelector('#metaaumentar');
 const dadosadocao = document.querySelector('.metas');
+const body = document.querySelector('body');
+
+
+
+topicosnavegacaoimg.addEventListener('click', ()=> {
+    topicosnavegacaosobre.classList.toggle('active');
+});
 
 botaodenavegacao.addEventListener('click', ()=> {
     paineldenavegacao.classList.toggle('active');
+});
+
+botaodenavegacao.addEventListener('click', ()=> {
+    body.classList.toggle('active');
 });
 
 metaaumentar.addEventListener('click', ()=> {
