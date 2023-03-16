@@ -102,7 +102,7 @@ body.active{
     background-color: rgb(221, 221, 221);
     color: black;
     border-bottom: 2px solid  rgb(201, 201, 201);
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .topicosnavegacaoimg{
@@ -117,7 +117,7 @@ body.active{
     background-color: rgb(221, 221, 221);
     color: black;
     border-bottom: 2px solid  rgb(201, 201, 201);
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -151,11 +151,11 @@ body.active{
 }
 
 .sobreoprojetopaginainicial{
-    height: 210px;
     width: 100%;
     background-color: transparent;
-    position: relative;
     top: 30px;
+    margin-top: 40px;
+    padding-bottom: 40px;
 }
 
 .titulosobreoprojetopaginainicial{
@@ -173,51 +173,23 @@ body.active{
     padding-right: 10px;
 }
 
-
-/* Imagem do Cachorro*/
-
-.dogimagempaginainicial{
-    background-color: rgb(173, 173, 173);
-    height: 109px;
-    position: relative;
-    top: 0px;
-    border-radius: 15px 15px 0px 0px;
-}
-
-.dogimagempaginainicial>img{
-    width: 190px;
-    position: relative;
-    top: 75px;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    z-index: 1;
-}
-
-@keyframes subirocachorro {
-    0% { top: 100px; }
-    100% { top: 0px; }
-}
-
 /* Area Adote */
-
-.areaporqueadotar{
-    background-color: rgb(200, 200, 200);
-    animation: subirocachorro 0.8s linear;
-    border-radius: 15px 15px 0px 0px;
-
-    padding-bottom: 10px;
-}
 
 .sobreadotarpaginainicial{
     background-color: rgb(200, 200, 200);
     margin-top: -1px;
+    border-radius: 15px 15px 0px 0px;
+    animation: subirtamanho 1s linear;
+    margin-top: 0px;
 }
 
 .subtitulosobreoprojetopaginainicial{
-    margin-top: 75px;
-    margin-left: 22px;
+    padding-right: 10px;
+    padding-left: 22px;
     font-size: 22px;
     color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    padding-top: 40px;
 }
 
 .paragrafosobreadotarpaginainicial{
@@ -256,6 +228,11 @@ body.active{
 @keyframes verde {
     0% {opacity: 0%;}
     100% {opacity: 100%;}
+}
+
+@keyframes subirtamanho {
+    0% {margin-top: 50px;}
+    100% { margin-top: 0;}
 
 }
 
@@ -299,9 +276,9 @@ body.active{
 }
 
 .titulosistemadepontospaginainicial{
-    position: relative;
-    top: 45px;
+    padding-top: 40px;
     margin-left: 22px;
+    margin-bottom: 10px;
     font-size: 22px;
     color: black;
 }
@@ -310,31 +287,33 @@ body.active{
     margin-left: 22px;
     font-size: 17px;
     color: black;
-    margin-top: 50px;
+    margin-top: 0px;
     padding-right: 10px;
 }
 
 .paragrafosistemadepontospaginainicial>a{
     text-decoration: none;
-    color: rgb(54, 54, 54);
+    color: rgb(160, 144, 144);
 }
 
 
 /* Metas */
 
 .metas{
-    height: 250px;
+    height: auto;
     background-color: rgb(200, 200, 200);
     border-radius: 15px 15px 0px 0px;
     transition: 1s;
+    padding-bottom: 40px;
 }
 
 .titulometaspaginainicial{
     position: relative;
-    top: 45px;
+    padding-top: 40px;
     margin-left: 22px;
     font-size: 22px;
     color: rgb(0, 0, 0);
+    margin-bottom: 10px;
 }
 
 #metaaumentar>img , #metadiminuir>img , #dadosaumentar>img{
@@ -344,8 +323,6 @@ body.active{
 }
 
 #metaaumentar{
-    position: relative;
-    top: 70px;
     margin: 0 auto;
     align-items: center;
     display: flex;
@@ -354,6 +331,7 @@ body.active{
     width: 90%;
     border-radius: 50px;
     z-index: 1;
+    position: relative;
 }
 
 #metaaumentar>p{
@@ -364,10 +342,10 @@ body.active{
 
 .dadosadocao{
     position: relative;
-    top: 35px;
+    top: -25px;
     margin: 0 auto;
     height: 0px;
-    background-color: rgb(221, 221, 221);;
+    background-color: rgb(167, 165, 165);;
     width: 90%;
     border-radius: 10px 10px 20px 20px;
     overflow: hidden;
@@ -376,10 +354,6 @@ body.active{
 
 .metas.active .dadosadocao{   
     height: 120px;
-}
-
-.metas.active{
-    height: calc(420px);
 }
 
 .dadosadocao>p{
@@ -392,7 +366,7 @@ body.active{
 }
 
 .dadosadocao>p>span{
-    color: gray;
+    color: rgb(0, 0, 0);
 }
 
 /* CORREÇAO PARA DISPOSITIVOS MOBILE ANTIGO*/
