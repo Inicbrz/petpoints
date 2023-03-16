@@ -151,7 +151,7 @@ body.active{
 }
 
 .sobreoprojetopaginainicial{
-    height: 230px;
+    height: 210px;
     width: 100%;
     background-color: transparent;
     position: relative;
@@ -160,13 +160,13 @@ body.active{
 
 .titulosobreoprojetopaginainicial{
     margin-left: 22px;
-    font-size: 30px;
+    font-size: 22px;
     color: rgb(0, 0, 0);
 }
 
 .paragrafosobreoprojetopaginainicial{
     margin-left: 22px;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 400;
     color: rgb(0, 0, 0);
     margin-top: 5px;
@@ -178,14 +178,14 @@ body.active{
 
 .dogimagempaginainicial{
     background-color: rgb(173, 173, 173);
-    height: 104px;
+    height: 109px;
     position: relative;
     top: 0px;
     border-radius: 15px 15px 0px 0px;
 }
 
 .dogimagempaginainicial>img{
-    width: 160px;
+    width: 190px;
     position: relative;
     top: 75px;
     transform: translate(-50%,-50%);
@@ -214,16 +214,16 @@ body.active{
 }
 
 .subtitulosobreoprojetopaginainicial{
-    margin-top: 70px;
+    margin-top: 75px;
     margin-left: 22px;
-    font-size: 26px;
+    font-size: 22px;
     color: rgb(0, 0, 0);
 }
 
 .paragrafosobreadotarpaginainicial{
     padding-right: 10px;
     padding-left: 22px;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 300;
     color: rgb(0, 0, 0);
     padding-top: 5px;
@@ -242,6 +242,7 @@ body.active{
 /* Area Adote JAVA SCRIPT*/
 
 .mais5motivos{
+    font-size: 14px;
     color: rgb(54, 54, 54);
     padding-left: 42px;
     padding-right: 42px;
@@ -301,13 +302,13 @@ body.active{
     position: relative;
     top: 45px;
     margin-left: 22px;
-    font-size: 30px;
+    font-size: 22px;
     color: black;
 }
 
 .paragrafosistemadepontospaginainicial{
     margin-left: 22px;
-    font-size: 19px;
+    font-size: 17px;
     color: black;
     margin-top: 50px;
     padding-right: 10px;
@@ -332,7 +333,7 @@ body.active{
     position: relative;
     top: 45px;
     margin-left: 22px;
-    font-size: 30px;
+    font-size: 22px;
     color: rgb(0, 0, 0);
 }
 
@@ -358,7 +359,7 @@ body.active{
 #metaaumentar>p{
     color: black;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .dadosadocao{
@@ -384,9 +385,9 @@ body.active{
 .dadosadocao>p{
     position: relative;
     top: 40px;
-    color: rgb(82, 240, 95);
+    color: rgb(49, 49, 49);
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 
@@ -433,6 +434,18 @@ body.active{
 
 .paragrafosistemadepontospaginainicial{
     margin-left: 10px;
+}
+
+.dogimagempaginainicial>img{
+    width: 140px;
+}
+
+.dogimagempaginainicial{
+    height: 100px;
+}
+
+.subtitulosobreoprojetopaginainicial{
+    margin-top: 60px;
 }
 
 
