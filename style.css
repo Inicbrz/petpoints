@@ -99,7 +99,7 @@ body.active{
     background-color: rgb(13, 21, 70);
     color: white;
     border-bottom: 2px solid  rgb(3, 8, 41);
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .topicosnavegacao:focus{
@@ -119,7 +119,7 @@ body.active{
     background-color: rgb(13, 21, 70);
     color: white;
     border-bottom: 2px solid  rgb(3, 8, 41);
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -153,16 +153,16 @@ body.active{
 }
 
 .sobreoprojetopaginainicial{
-    height: 250px;
     width: 100%;
     background-color: transparent;
-    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
     top: 50px;
 }
 
 .titulosobreoprojetopaginainicial{
     margin-left: 22px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
@@ -170,7 +170,7 @@ body.active{
 
 .paragrafosobreoprojetopaginainicial{
     margin-left: 22px;
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
@@ -183,16 +183,16 @@ body.active{
 
 .dogimagempaginainicial{
     background-color: white;
-    height: 223px;
+    height: 123px;
     position: relative;
     top: 0px;
     border-radius: 15px 15px 0px 0px;
 }
 
 .dogimagempaginainicial>img{
-    width: 240px;
+    width: 130px;
     position: relative;
-    top: 180px;
+    top: 100px;
     transform: translate(-50%,-50%);
     left: 50%;
     z-index: 1;
@@ -213,24 +213,24 @@ body.active{
 }
 
 .subtitulosobreoprojetopaginainicial{
-    margin-top: 110px;
+    margin-top: 55px;
     margin-left: 22px;
-    font-size: 26px;
+    font-size: 19px;
     color: rgb(255, 255, 255);
     font-weight: 300;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
 }
 
 .paragrafosobreadotarpaginainicial{
-    padding-right: 10px;
+    padding-right: 30px;
     padding-left: 22px;
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
     padding-top: 5px;
     width: 100%;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     background-color: rgb(3, 8, 41);
 }
 
@@ -238,7 +238,7 @@ body.active{
     background-color: rgb(3, 8, 41);
     border-radius: 15px 15px 0px 0px;
     animation: subirocachorro 0.8s linear;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 .sobreadotarpaginainicial{
@@ -249,6 +249,7 @@ body.active{
 /* Area Adote JAVA SCRIPT*/
 
 .mais5motivos{
+    font-size: 13px;
     color: rgb(50, 226, 50);
     padding-left: 42px;
     padding-right: 42px;
@@ -256,7 +257,7 @@ body.active{
     background-color: rgb(3, 8, 41);
     padding-bottom: 15px;
     display: none;
-    animation: verde 1s linear;
+    animation: verde 0.7s linear;
 }
 
 @keyframes verde {
@@ -307,7 +308,7 @@ body.active{
     position: relative;
     top: 45px;
     margin-left: 22px;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
@@ -315,7 +316,7 @@ body.active{
 
 .paragrafosistemadepontospaginainicial{
     margin-left: 22px;
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
@@ -342,7 +343,7 @@ body.active{
     position: relative;
     top: 45px;
     margin-left: 22px;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
@@ -361,7 +362,7 @@ body.active{
     align-items: center;
     display: flex;
     height: 50px;
-    background-color: rgb(3, 8, 41);
+    background-color:  rgb(13, 21, 70);
     width: 90%;
     border-radius: 50px;
     z-index: 1;
@@ -370,7 +371,7 @@ body.active{
 #metaaumentar>p{
     color: rgb(82, 240, 95);
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .dadosadocao{
@@ -378,7 +379,7 @@ body.active{
     top: 35px;
     margin: 0 auto;
     height: 0px;
-    background-color: rgb(3, 8, 41);
+    background-color:  rgb(13, 21, 70);
     width: 90%;
     border-radius: 10px 10px 20px 20px;
     overflow: hidden;
@@ -398,7 +399,7 @@ body.active{
     top: 40px;
     color: rgb(82, 240, 95);
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 10px;
 }
 
@@ -414,7 +415,7 @@ body.active{
     align-items: center;
     display: flex;
     height: 50px;
-    background-color: rgb(3, 8, 41);
+    background-color:  rgb(13, 21, 70);
     width: 90%;
     border-radius: 50px;
     z-index: 1;
