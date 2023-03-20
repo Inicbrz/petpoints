@@ -99,7 +99,7 @@ body.active{
     background-color: rgb(13, 21, 70);
     color: white;
     border-bottom: 2px solid  rgb(3, 8, 41);
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .topicosnavegacao:focus{
@@ -119,7 +119,7 @@ body.active{
     background-color: rgb(13, 21, 70);
     color: white;
     border-bottom: 2px solid  rgb(3, 8, 41);
-    font-size: 15px;
+    font-size: 17px;
     text-decoration: none;
 }
 
@@ -156,7 +156,7 @@ body.active{
     width: 100%;
     background-color: transparent;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     top: 50px;
 }
 
@@ -170,7 +170,7 @@ body.active{
 
 .paragrafosobreoprojetopaginainicial{
     margin-left: 22px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
@@ -179,31 +179,52 @@ body.active{
 }
 
 
-/* Imagem do Cachorro*/
 
-.dogimagempaginainicial{
-    background-color: white;
-    height: 123px;
-    position: relative;
-    top: 0px;
+/* Area Adote */
+
+.areaporqueadotar{
+    background-color: rgb(3, 8, 41);
     border-radius: 15px 15px 0px 0px;
-}
-
-.dogimagempaginainicial>img{
-    width: 130px;
-    position: relative;
-    top: 100px;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    z-index: 1;
+    animation: subirocachorro 0.8s linear;
+    padding-bottom: 5px;
+    padding-top: 40px;
 }
 
 @keyframes subirocachorro {
-    0% { top: 100px; }
-    100% { top: 0px; }
+    
+    0% { margin-top: 50px;}
+    100% { margin-top: 0px;}
+
 }
 
-/* Area Adote */
+.flexporqueadotar{
+    display: flex;
+    justify-content: ;
+}
+
+.flexporqueadotar>img{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: -15px;
+    right: 15px;
+    animation: dogadotar 2s linear infinite;
+}
+
+@keyframes dogadotar {
+
+    0% { rotate: 5deg;}
+    25% {}
+    50% { rotate: -5deg;}
+    75% {}
+    100% { rotate: 5deg;}
+    
+}
+
+.sobreadotarpaginainicial{
+    background-color: rgb(3, 8, 41);
+    margin-top: -1px;
+}
 
 .paragrafosobreadotarpaginainicial>img{
     width: 25px;
@@ -213,18 +234,19 @@ body.active{
 }
 
 .subtitulosobreoprojetopaginainicial{
-    margin-top: 55px;
     margin-left: 22px;
-    font-size: 19px;
+    margin-bottom: 10px;
+    font-size: 22px;
     color: rgb(255, 255, 255);
     font-weight: 300;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
+    margin-right: 5px;
 }
 
 .paragrafosobreadotarpaginainicial{
     padding-right: 30px;
     padding-left: 22px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
@@ -234,22 +256,11 @@ body.active{
     background-color: rgb(3, 8, 41);
 }
 
-.areaporqueadotar{
-    background-color: rgb(3, 8, 41);
-    border-radius: 15px 15px 0px 0px;
-    animation: subirocachorro 0.8s linear;
-    padding-bottom: 5px;
-}
-
-.sobreadotarpaginainicial{
-    background-color: rgb(3, 8, 41);
-    margin-top: -1px;
-}
 
 /* Area Adote JAVA SCRIPT*/
 
 .mais5motivos{
-    font-size: 13px;
+    font-size: 15px;
     color: rgb(50, 226, 50);
     padding-left: 42px;
     padding-right: 42px;
@@ -301,14 +312,13 @@ body.active{
     background-color: rgb(13, 21, 70);
     border-radius: 15px 15px 0px 0px;
     transition: 1s;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
+    padding-top: 40px;
 }
 
 .titulosistemadepontospaginainicial{
-    position: relative;
-    top: 45px;
     margin-left: 22px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
@@ -316,11 +326,11 @@ body.active{
 
 .paragrafosistemadepontospaginainicial{
     margin-left: 22px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
-    margin-top: 50px;
+    margin-top: 10px;
     padding-right: 10px;
 }
 
@@ -329,21 +339,40 @@ body.active{
     color: rgb(50, 226, 50);;
 }
 
+.flexsistemadepontos>img{
+    width: 30px;
+    margin-left: 15px;
+}
+
+.flexsistemadepontos{
+    display: flex;
+}
+
+/* #Foto de seu Pet */
+
+.fotodoseupet{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(3, 8, 41);
+    border-radius: 20px 20px 20px 20px;
+    margin-top: -10px;
+}
+
 
 /* Metas */
 
 .metas{
-    height: 300px;
-    background-color: rgb(3, 8, 41);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(13, 21, 70);
     border-radius: 15px 15px 0px 0px;
     transition: 1s;
 }
 
 .titulometaspaginainicial{
-    position: relative;
-    top: 45px;
+    margin-bottom: 20px;
     margin-left: 22px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
@@ -356,30 +385,29 @@ body.active{
 }
 
 #metaaumentar{
-    position: relative;
-    top: 70px;
     margin: 0 auto;
     align-items: center;
     display: flex;
     height: 50px;
-    background-color:  rgb(13, 21, 70);
+    background-color:  rgb(3, 8, 41);
     width: 90%;
     border-radius: 50px;
+    position: relative;
     z-index: 1;
 }
 
 #metaaumentar>p{
     color: rgb(82, 240, 95);
     margin-left: 20px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .dadosadocao{
     position: relative;
-    top: 35px;
+    top: -25px;
     margin: 0 auto;
     height: 0px;
-    background-color:  rgb(13, 21, 70);
+    background-color:  rgb(3, 8, 41);
     width: 90%;
     border-radius: 10px 10px 20px 20px;
     overflow: hidden;
@@ -390,16 +418,12 @@ body.active{
     height: 120px;
 }
 
-.metas.active{
-    height: calc(420px);
-}
-
 .dadosadocao>p{
     position: relative;
     top: 40px;
     color: rgb(82, 240, 95);
     margin-left: 20px;
-    font-size: 15px;
+    font-size: 17px;
     margin-bottom: 10px;
 }
 
@@ -407,31 +431,55 @@ body.active{
     color: gray;
 }
 
+/* Footer da pagina inicial */
 
-#metadiminuir{
-    position: relative;
-    top: 90px;
-    margin: 0 auto;
-    align-items: center;
+.areafinalpaginainicial{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(3, 8, 41);
+}
+
+.footersocialmedias{
+
     display: flex;
-    height: 50px;
-    background-color:  rgb(13, 21, 70);
-    width: 90%;
-    border-radius: 50px;
-    z-index: 1;
-    border-bottom: 0px solid red;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 80%;
+    position: absolute;
+    bottom: 20px;
+    padding: 0px;
+    transform: translate(-50%);
+    left: 50%;
 }
 
-#metadiminuir>p{
-    color: rgb(240, 82, 82);
-    margin-left: 20px;
-    font-size: 18px;
+.footersocialmedias>a>img{
+    width: 50px;
 }
 
-.metateste{
-    background-color: red;
-    height: 700px;
-    top: 1800px;
+.allfooter{
+    position: relative;
+    top: 50px;
+}
+
+.allfooter li , a{
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.allfooter h1{
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(178, 174, 195);
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.allfooter div{
+    margin-bottom: 10px;
 }
 
 /* CORREÇAO PARA DISPOSITIVOS MOBILE ANTIGO*/
@@ -447,13 +495,10 @@ body.active{
     margin-left: 10px;
 }
 
-.paragrafosobreadotarpaginainicial>img{
-    margin-left: 5px;
-}
 
 .subtitulosobreoprojetopaginainicial{
     margin-left: 10px;
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 .paragrafosobreadotarpaginainicial{
@@ -462,6 +507,7 @@ body.active{
 }
 
 /* Area Adote JAVA SCRIPT*/
+
 
 .mais5motivos{
     padding-left: 25px;
@@ -473,15 +519,6 @@ body.active{
 
 .paragrafosistemadepontospaginainicial{
     margin-left: 10px;
-}
-
-.dogimagempaginainicial{
-    height: 183px;
-}
-
-.dogimagempaginainicial>img{
-    width: 180px;
-    top: 151px;
 }
 }
 
