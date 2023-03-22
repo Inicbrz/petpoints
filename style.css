@@ -619,7 +619,6 @@ body.active{
     padding-left: 20px;
 }
 
-
 .inputssendbox{
     display: flex;
     margin-top: 10px;
@@ -663,17 +662,35 @@ body.active{
     position: absolute;
     top: 110px;
     right: 10px;
-    animation: imgcadastro 1.3s ;
-    margin-right: -10px;
+    margin-right: 5px;
+    z-index: 2;
+    cursor: pointer;
+    animation: imgcadastro 1.3s , imgcadastrorotate 2s infinite linear ;
 }
 
 @keyframes imgcadastro {
     
-    0% { margin-right: -20px; margin-top: 150px; opacity: 0%;}
-    50% { margin-right: -10px;}
-    100% { margin-right: -10px; opacity: 100%;}
+    0% { margin-right: 0px; margin-top: 150px; opacity: 0%;}
+    50% { margin-right: 5px;}
+    100% { margin-right: 5px; opacity: 100%;}
 }
 
+@keyframes imgcadastrorotate {
+    0% {rotate: 0deg;}
+    50% {rotate: 5deg;}
+    100% {rotate: 0deg;}
+}
+
+.mato:focus{
+    opacity: 0%;
+    animation: desaparecerimgmato 2s linear;
+}
+
+@keyframes desaparecerimgmato {
+
+    0% { opacity: 100% ; rotate: 0deg; width: 120px; margin-right: 0;}
+    100% {opacity: 0%; rotate: 720deg; width: 60px; margin-right: -50px;} 
+}
 
 
 
