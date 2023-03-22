@@ -529,7 +529,7 @@ body.active{
     top: 30px;
     margin: 0 auto;
     border-radius: 15px;
-    background-image: linear-gradient( to bottom right , rgb(23, 36, 123) , rgb(10, 29, 73) );
+    background-image: linear-gradient( to bottom right , rgb(16, 26, 94) , rgb(8, 24, 61) );
 }
 
 .formloginpage::after{
@@ -683,13 +683,13 @@ body.active{
 
 .mato:focus{
     opacity: 0%;
-    animation: desaparecerimgmato 2s linear;
+    animation: desaparecerimgmato 1s linear;
 }
 
 @keyframes desaparecerimgmato {
 
     0% { opacity: 100% ; rotate: 0deg; width: 120px; margin-right: 0;}
-    100% {opacity: 0%; rotate: 720deg; width: 60px; margin-right: -50px;} 
+    100% {opacity: 0%; rotate: 420deg; width: 60px; margin-right: -50px;} 
 }
 
 
