@@ -75,7 +75,7 @@ body.active{
 .paineldenavegacao{
     height: 0px;
     width: 100%;
-    background-color:  rgb(16, 27, 105);
+    background-color:  rgb(14, 23, 85);
     position: fixed;
     top: 49px;
     display: block;
@@ -97,14 +97,14 @@ body.active{
 
 .topicosnavegacao{
     padding: 25px 20px;
-    background-color: rgb(16, 27, 105);
+    background-color: rgb(14, 23, 85);
     color: white;
     border-bottom: 2px solid  rgb(13, 23, 87);
     font-size: 17px;
 }
 
 .topicosnavegacao:focus{
-    background-color: rgb(16, 27, 105);
+    background-color: rgb(14, 23, 85);
 }
 
 .topicosnavegacaoimg{
@@ -117,7 +117,7 @@ body.active{
 
 .topicosnavegacaosobre{
     padding: 25px 50px;
-    background-color: rgb(16, 27, 105);
+    background-color: rgb(14, 23, 85);
     color: white;
     border-bottom: 2px solid  rgb(3, 8, 41);
     font-size: 17px;
@@ -163,7 +163,7 @@ body.active{
     width: 100%;
     position: absolute;
     top: 50px;
-    background-color: rgb(16, 27, 105);
+    background-color: rgb(14, 23, 85);
 }
 
 .sobreoprojetopaginainicial{
@@ -324,7 +324,7 @@ body.active{
 
 .sistemadepontos{
     margin-top: -10px;
-    background-color: rgb(16, 27, 105);
+    background-color: rgb(14, 23, 85);
     border-radius: 15px 15px 0px 0px;
     transition: 1s;
     padding-bottom: 50px;
@@ -384,7 +384,7 @@ body.active{
 .metas{
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: rgb(16, 27, 105);
+    background-color: rgb(14, 23, 85);
     border-radius: 15px 15px 0px 0px;
     transition: 1s; 
 } 
@@ -529,7 +529,7 @@ body.active{
     top: 30px;
     margin: 0 auto;
     border-radius: 15px;
-    background-image: linear-gradient( to bottom right , rgb(16, 26, 94) , rgb(8, 24, 61) );
+    background-image: linear-gradient( to bottom right , rgb(9, 17, 74) , rgb(2, 15, 43) );
 }
 
 .formloginpage::after{
@@ -541,7 +541,7 @@ body.active{
    width: 60000px;
    background-image: url(stars.png);
    background-size: contain;
-   opacity: 30%;
+   opacity: 50%;
    z-index: 0;
    animation: backstars 2400s infinite linear, backstarsop 4s infinite linear;
 }
@@ -552,9 +552,9 @@ body.active{
 }
 
 @keyframes backstarsop {
-    0% { opacity: 30%;}
-    50% { opacity: 5%;}
-    100% { opacity: 30%;}
+    0% { opacity: 50%;}
+    50% { opacity: 15%;}
+    100% { opacity: 50%;}
 }
 
 
