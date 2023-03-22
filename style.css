@@ -75,7 +75,7 @@ body.active{
 .paineldenavegacao{
     height: 0px;
     width: 100%;
-    background-color:  rgb(6, 19, 104);
+    background-color:  rgb(16, 27, 105);
     position: fixed;
     top: 49px;
     display: block;
@@ -97,14 +97,14 @@ body.active{
 
 .topicosnavegacao{
     padding: 25px 20px;
-    background-color: rgb(6, 19, 104);
+    background-color: rgb(16, 27, 105);
     color: white;
-    border-bottom: 2px solid  rgb(3, 8, 41);
+    border-bottom: 2px solid  rgb(13, 23, 87);
     font-size: 17px;
 }
 
 .topicosnavegacao:focus{
-    background-color: rgb(6, 19, 104);
+    background-color: rgb(16, 27, 105);
 }
 
 .topicosnavegacaoimg{
@@ -117,7 +117,7 @@ body.active{
 
 .topicosnavegacaosobre{
     padding: 25px 50px;
-    background-color: rgb(6, 19, 104);
+    background-color: rgb(16, 27, 105);
     color: white;
     border-bottom: 2px solid  rgb(3, 8, 41);
     font-size: 17px;
@@ -163,7 +163,7 @@ body.active{
     width: 100%;
     position: absolute;
     top: 50px;
-    background-color: rgb(6, 19, 104);
+    background-color: rgb(16, 27, 105);
 }
 
 .sobreoprojetopaginainicial{
@@ -324,7 +324,7 @@ body.active{
 
 .sistemadepontos{
     margin-top: -10px;
-    background-color: rgb(6, 19, 104);
+    background-color: rgb(16, 27, 105);
     border-radius: 15px 15px 0px 0px;
     transition: 1s;
     padding-bottom: 50px;
@@ -384,7 +384,7 @@ body.active{
 .metas{
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: rgb(6, 19, 104);
+    background-color: rgb(16, 27, 105);
     border-radius: 15px 15px 0px 0px;
     transition: 1s; 
 } 
