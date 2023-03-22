@@ -521,6 +521,7 @@ body.active{
 }
 
 .formloginpage{
+    overflow: hidden;
     height: 600px;
     width: 100%;
     background-color: transparent;
@@ -528,25 +529,41 @@ body.active{
     top: 30px;
     margin: 0 auto;
     border-radius: 15px;
-    background-image: linear-gradient( to bottom right , rgb(6, 19, 104) , rgb(18, 43, 101) );
+    background-image: linear-gradient( to bottom right , rgb(23, 36, 123) , rgb(10, 29, 73) );
 }
 
 .formloginpage::after{
    content: "";
    position: absolute;
    top: 0px;
+   right: 0;
    height: 600px;
-   width: 100%;
+   width: 60000px;
    background-image: url(stars.png);
    background-size: contain;
-   opacity: 20%;
+   opacity: 30%;
+   z-index: 0;
+   animation: backstars 2400s infinite linear, backstarsop 4s infinite linear;
 }
+
+@keyframes backstars {
+    0% { opacity: 30%; right: -10px;}
+    100% { opacity: 30%; right: -60000px}
+}
+
+@keyframes backstarsop {
+    0% { opacity: 30%;}
+    50% { opacity: 5%;}
+    100% { opacity: 30%;}
+}
+
 
 .fieldsetloginpage{
     height: 500px;
     width: 90%;
     margin: 0 auto;
     border: none;
+    z-index: 1;
 }
 
 .fieldsetloginpage>h1{
@@ -588,6 +605,8 @@ body.active{
     color: white;
     border: none;
     transition: padding 0.5s;
+    z-index: 1;
+
 }
 
 .inputsbox>input::placeholder{
@@ -604,6 +623,7 @@ body.active{
 .inputssendbox{
     display: flex;
     margin-top: 10px;
+    z-index: 1;
 }
 
 .inputssendbox>input{
@@ -615,6 +635,8 @@ body.active{
     background-color: transparent;
     border: 2px solid white;
     color: white;
+    z-index: 1;
+    cursor: pointer;
 }
 
 ::-ms-reveal{
