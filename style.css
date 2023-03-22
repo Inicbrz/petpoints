@@ -9,7 +9,8 @@
 
 html,body{
 	height: 100%;
-    background-color: rgb(3, 8, 41);
+    background-color: rgb(13, 21, 70);
+    overflow: auto;
 }
 
 body.active{
@@ -74,7 +75,7 @@ body.active{
 .paineldenavegacao{
     height: 0px;
     width: 100%;
-    background-color:  rgb(13, 21, 70);
+    background-color:  rgb(6, 19, 104);
     position: fixed;
     top: 49px;
     display: block;
@@ -96,14 +97,14 @@ body.active{
 
 .topicosnavegacao{
     padding: 25px 20px;
-    background-color: rgb(13, 21, 70);
+    background-color: rgb(6, 19, 104);
     color: white;
     border-bottom: 2px solid  rgb(3, 8, 41);
     font-size: 17px;
 }
 
 .topicosnavegacao:focus{
-    background-color: rgb(13, 21, 70);
+    background-color: rgb(6, 19, 104);
 }
 
 .topicosnavegacaoimg{
@@ -116,7 +117,7 @@ body.active{
 
 .topicosnavegacaosobre{
     padding: 25px 50px;
-    background-color: rgb(13, 21, 70);
+    background-color: rgb(6, 19, 104);
     color: white;
     border-bottom: 2px solid  rgb(3, 8, 41);
     font-size: 17px;
@@ -127,6 +128,19 @@ body.active{
     height: 0px;
     overflow: hidden;
     transition: 0.5s;
+}
+
+.profilepaginainicial{
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url();
 }
 
 
@@ -149,14 +163,14 @@ body.active{
     width: 100%;
     position: absolute;
     top: 50px;
-    background-color: rgb(13, 21, 70);
+    background-color: rgb(6, 19, 104);
 }
 
 .sobreoprojetopaginainicial{
     width: 100%;
     background-color: transparent;
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     top: 50px;
 }
 
@@ -203,11 +217,11 @@ body.active{
 }
 
 .flexporqueadotar>img{
-    height: 70px;
-    width: 70px;
-    margin-right: 20px;
-    margin-top: -20px;
-    animation: dogadotar 2s linear infinite;
+    width: 130px;
+    position: absolute;
+    top: 135px;
+    right: 20px;
+    animation: dogadotar 5s linear infinite;
 }
 
 @keyframes dogadotar {
@@ -306,9 +320,11 @@ body.active{
 
 /* Sistema de Pontos */
 
+/* Sistema de Pontos */
+
 .sistemadepontos{
     margin-top: -10px;
-    background-color: rgb(13, 21, 70);
+    background-color: rgb(6, 19, 104);
     border-radius: 15px 15px 0px 0px;
     transition: 1s;
     padding-bottom: 50px;
@@ -349,6 +365,8 @@ body.active{
 
 /* #Foto de seu Pet */
 
+/* #Foto de seu Pet */
+
 .fotodoseupet{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -360,13 +378,16 @@ body.active{
 
 /* Metas */
 
+/* Metas */
+
+
 .metas{
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: rgb(13, 21, 70);
+    background-color: rgb(6, 19, 104);
     border-radius: 15px 15px 0px 0px;
-    transition: 1s;
-}
+    transition: 1s; 
+} 
 
 .titulometaspaginainicial{
     margin-bottom: 20px;
@@ -374,7 +395,7 @@ body.active{
     font-size: 22px;
     font-weight: 300;
     color: white;
-    text-shadow: 2px 2px 5px rgb(67, 74, 124);
+    text-shadow: 2px 2px 5px rgb(67, 75, 134);
 }
 
 #metaaumentar>img , #metadiminuir>img , #dadosaumentar>img{
@@ -432,10 +453,12 @@ body.active{
 
 /* Footer da pagina inicial */
 
+/* Footer da pagina inicial */
+
 .areafinalpaginainicial{
-    height: 250px;
+    height: 330px;
     width: 100%;
-    background-color: rgb(3, 8, 41);
+    background-color: rgb(3, 8, 41)
 }
 
 .footersocialmedias{
@@ -444,15 +467,15 @@ body.active{
     justify-content: center;
     justify-content: space-evenly;
     width: 80%;
-    position: absolute;
-    bottom: 20px;
+    position: relative;
+    top: 30px;
     padding: 0px;
     transform: translate(-50%);
     left: 50%;
 }
 
 .footersocialmedias>a>img{
-    width: 50px;
+    width: 40px;
 }
 
 .allfooter{
@@ -465,7 +488,8 @@ body.active{
     list-style: none;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 13px;
+    font-size: 15px;
+    position: relative;
 }
 
 .allfooter h1{
@@ -473,19 +497,168 @@ body.active{
     list-style: none;
     text-decoration: none;
     color: rgb(31, 45, 137);
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 0px;
 }
 
 .allfooter div{
-    margin-bottom: 10px;
+    margin-top: 20px;
 }
+
+/* COMEÇO DA LOGIN PAGE */
+
+/* COMEÇO DA LOGIN PAGE */
+
+/* COMEÇO DA LOGIN PAGE */
+
+.loginpage{
+    display: block;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(3, 8, 41);
+    
+}
+
+.formloginpage{
+    height: 600px;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-image: linear-gradient( to bottom right , rgb(6, 19, 104) , rgb(18, 43, 101) );
+}
+
+.formloginpage::after{
+   content: "";
+   position: absolute;
+   top: 0px;
+   height: 600px;
+   width: 100%;
+   background-image: url(stars.png);
+   background-size: contain;
+   opacity: 20%;
+}
+
+.fieldsetloginpage{
+    height: 500px;
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+}
+
+.fieldsetloginpage>h1{
+    color: white;
+    font-size: 25px;
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.inputsbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputsbox>p{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    flex-direction: column;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+.inputsbox>input{
+    height: 35px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    flex-direction: column;
+    padding-left: 10px;
+    font-size: 17px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    transition: padding 0.5s;
+}
+
+.inputsbox>input::placeholder{
+    font-size: 16px;
+    color: rgb(158, 146, 146);
+}
+
+.inputsbox>input:focus{
+    outline: none;
+    padding-left: 20px;
+}
+
+
+.inputssendbox{
+    display: flex;
+    margin-top: 10px;
+}
+
+.inputssendbox>input{
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+::-ms-reveal{
+    filter: invert();
+}
+
+.areafinalloginpage{
+    position: relative;
+    top: 50px;
+    color: rgb(170, 170, 170);
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    font-size: 13px;
+}
+
+.areafinalloginpage>p>a{
+    text-decoration: none;
+    color: rgb(3, 79, 255);
+}
+
+.mato{
+    width: 120px;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    animation: imgcadastro 1.3s ;
+    margin-right: -10px;
+}
+
+@keyframes imgcadastro {
+    
+    0% { margin-right: -20px; margin-top: 150px; opacity: 0%;}
+    50% { margin-right: -10px;}
+    100% { margin-right: -10px; opacity: 100%;}
+}
+
+
+
 
 /* CORREÇAO PARA DISPOSITIVOS MOBILE ANTIGO*/
 
-@media (max-width: 340px) 
+@media (max-width: 340px) {
 
-{
 .titulosobreoprojetopaginainicial{
     margin-left: 10px;
 }
@@ -519,6 +692,11 @@ body.active{
 .paragrafosistemadepontospaginainicial{
     margin-left: 10px;
 }
+
+.flexporqueadotar>img{
+    top: 155px;
+}
+
 }
 
 
