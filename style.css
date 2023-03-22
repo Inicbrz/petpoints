@@ -9,7 +9,7 @@
 
 html,body{
 	height: 100%;
-    background-color: rgb(13, 21, 70);
+    background-color: rgb(3, 8, 41);
     overflow: auto;
 }
 
@@ -75,7 +75,7 @@ body.active{
 .paineldenavegacao{
     height: 0px;
     width: 100%;
-    background-color:  rgb(14, 23, 85);
+    background-color:  rgb(9, 16, 63);
     position: fixed;
     top: 49px;
     display: block;
@@ -97,14 +97,14 @@ body.active{
 
 .topicosnavegacao{
     padding: 25px 20px;
-    background-color: rgb(14, 23, 85);
+    background-color: rgb(9, 16, 63);;
     color: white;
-    border-bottom: 2px solid  rgb(13, 23, 87);
-    font-size: 17px;
+    border-bottom: 2px solid  rgb(13, 6, 88);
+    font-size: 15px;
 }
 
 .topicosnavegacao:focus{
-    background-color: rgb(14, 23, 85);
+    background-color: rgb(9, 16, 63);;
 }
 
 .topicosnavegacaoimg{
@@ -117,10 +117,10 @@ body.active{
 
 .topicosnavegacaosobre{
     padding: 25px 50px;
-    background-color: rgb(14, 23, 85);
+    background-color: rgb(9, 16, 63);;
     color: white;
-    border-bottom: 2px solid  rgb(3, 8, 41);
-    font-size: 17px;
+    border-bottom: 2px solid  rgb(13, 6, 88);
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -163,20 +163,20 @@ body.active{
     width: 100%;
     position: absolute;
     top: 50px;
-    background-color: rgb(14, 23, 85);
+    background-color: rgb(9, 16, 63);;
 }
 
 .sobreoprojetopaginainicial{
     width: 100%;
     background-color: transparent;
     padding-top: 40px;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
     top: 50px;
 }
 
 .titulosobreoprojetopaginainicial{
     margin-left: 22px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
@@ -184,7 +184,7 @@ body.active{
 
 .paragrafosobreoprojetopaginainicial{
     margin-left: 22px;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
@@ -219,7 +219,7 @@ body.active{
 .flexporqueadotar>img{
     width: 130px;
     position: absolute;
-    top: 135px;
+    top: 110px;
     right: 20px;
     animation: dogadotar 5s linear infinite;
 }
@@ -249,7 +249,7 @@ body.active{
 .subtitulosobreoprojetopaginainicial{
     margin-left: 22px;
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
     font-weight: 300;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
@@ -259,7 +259,7 @@ body.active{
 .paragrafosobreadotarpaginainicial{
     padding-right: 30px;
     padding-left: 22px;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
@@ -324,7 +324,7 @@ body.active{
 
 .sistemadepontos{
     margin-top: -10px;
-    background-color: rgb(14, 23, 85);
+    background-color: rgb(9, 16, 63);;
     border-radius: 15px 15px 0px 0px;
     transition: 1s;
     padding-bottom: 50px;
@@ -333,7 +333,7 @@ body.active{
 
 .titulosistemadepontospaginainicial{
     margin-left: 22px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
@@ -341,7 +341,7 @@ body.active{
 
 .paragrafosistemadepontospaginainicial{
     margin-left: 22px;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
@@ -384,7 +384,7 @@ body.active{
 .metas{
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: rgb(14, 23, 85);
+    background-color: rgb(9, 16, 63);;
     border-radius: 15px 15px 0px 0px;
     transition: 1s; 
 } 
@@ -392,7 +392,7 @@ body.active{
 .titulometaspaginainicial{
     margin-bottom: 20px;
     margin-left: 22px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 75, 134);
@@ -522,7 +522,7 @@ body.active{
 
 .formloginpage{
     overflow: hidden;
-    height: 600px;
+    height: 550px;
     width: 100%;
     background-color: transparent;
     position: relative;
@@ -568,7 +568,7 @@ body.active{
 
 .fieldsetloginpage>h1{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     width: 90%;
     margin: 0 auto;
     padding-left: 10px;
@@ -587,8 +587,8 @@ body.active{
     border-radius: 5px;
     flex-direction: column;
     padding-left: 10px;
-    font-size: 20px;
-    color: white;
+    font-size: 15px;
+    color: rgb(0, 242, 255);
     border: none;
 }
 
@@ -600,7 +600,7 @@ body.active{
     border-radius: 5px;
     flex-direction: column;
     padding-left: 10px;
-    font-size: 17px;
+    font-size: 15px;
     background-color: transparent;
     color: white;
     border: none;
@@ -610,7 +610,7 @@ body.active{
 }
 
 .inputsbox>input::placeholder{
-    font-size: 16px;
+    font-size: 15px;
     color: rgb(158, 146, 146);
 }
 
@@ -623,6 +623,7 @@ body.active{
     display: flex;
     margin-top: 10px;
     z-index: 1;
+    flex-direction: column;
 }
 
 .inputssendbox>input{
@@ -630,12 +631,23 @@ body.active{
     width: 90%;
     margin: 0 auto;
     border-radius: 15px;
-    font-size: 17px;
+    font-size: 15px;
     background-color: transparent;
     border: 2px solid white;
     color: white;
     z-index: 1;
     cursor: pointer;
+}
+
+.inputssendbox>p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.inputssendbox>p>a{
+    color: rgb(0, 242, 255);
 }
 
 ::-ms-reveal{
@@ -650,11 +662,12 @@ body.active{
     margin: 0 auto;
     padding-bottom: 70px;
     font-size: 13px;
+    text-align: center;
 }
 
 .areafinalloginpage>p>a{
     text-decoration: none;
-    color: rgb(3, 79, 255);
+    color: rgb(0, 242, 255);
 }
 
 .mato{
