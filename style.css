@@ -775,8 +775,7 @@ body.active{
     z-index: 1;
     box-sizing: content-box;
     border: 2px solid cyan;
-    border-radius: 20px
-
+    border-radius: 20px;
 }
 
 .fieldsetloginpage>h1{
@@ -881,7 +880,7 @@ body.active{
     filter: invert();
 }
 
-.mato{
+.animatedlogin{
     width: 120px;
     position: absolute;
     top: 370px;
@@ -889,33 +888,58 @@ body.active{
     margin-right: 5px;
     z-index: 2;
     cursor: pointer;
-    animation: imgcadastro 1.3s , imgcadastrorotate 2s infinite linear ;
+    animation: imglogin 1.3s , imgloginrotate 2s infinite linear ;
 }
 
-@keyframes imgcadastro {
+@keyframes imglogin {
     
     0% { margin-right: 0px; margin-top: 150px; opacity: 0%;}
     50% { margin-right: 5px;}
     100% { margin-right: 5px; opacity: 100%;}
 }
 
-@keyframes imgcadastrorotate {
+@keyframes imgloginrotate {
     0% {rotate: 0deg;}
     50% {rotate: 5deg;}
     100% {rotate: 0deg;}
 }
 
-.mato:focus{
+.areainformacaodoglogin{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 65%;
+    overflow: hidden;
+}
+
+.informacaodoglogin{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: 1.2s;
+    overflow: hidden;
     opacity: 0%;
-    animation: desaparecerimgmato 1s linear;
+    position: relative;
+    left: 250px;
 }
 
-@keyframes desaparecerimgmato {
+.informacaodoglogin.active{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    opacity: 100%;
+    left: 0px;
 
-    0% { opacity: 100% ; rotate: 0deg; width: 120px; margin-right: 0;}
-    100% {opacity: 0%; rotate: 420deg; width: 60px; margin-right: 200px;} 
 }
 
+.informacaodoglogin>p{
+    font-size: 12px;
+    padding-right: 50px;
+    padding-left: 15px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
 
 
 /* CORREÇAO PARA DISPOSITIVOS MOBILE ANTIGO*/

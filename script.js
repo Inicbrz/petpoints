@@ -6,6 +6,13 @@ const metaaumentar = document.querySelector('#metaaumentar');
 const dadosadocao = document.querySelector('.metas');
 const body = document.querySelector('body');
 
+const infodoglogin = document.querySelector('.informacaodoglogin');
+const doglogin = document.querySelector('.animatedlogin');
+
+
+doglogin.addEventListener('click', ()=> {
+    infodoglogin.classList.toggle('active');
+});
 
 
 topicosnavegacaoimg.addEventListener('click', ()=> {
@@ -65,4 +72,8 @@ const m5me5 = document.querySelector('.mais5motivosesconder5');
 m5mm5.addEventListener('click', ()=> {
     m5me5.classList.toggle('active');
 });
+
+//PARTE SCRIPT LOGIN PAGE//
+
+
 
