@@ -375,6 +375,14 @@ body.active{
     scroll-snap-align: center
 }
 
+.pd1>img{
+    margin-top: -5px;
+    margin-left: -10px;
+    width: 100px;
+    rotate: 0deg;
+    animation: animacaoimgprocessodoacao 2s infinite linear;
+}
+
 .backgroundprocessodoacaoimg{
     height: 80px;
     width: 80px;
@@ -395,6 +403,18 @@ body.active{
 
 .lastbackgroundprocessodoacaoimg>img{
     width: 100px;
+    rotate: 0deg;
+    animation: animacaoimgprocessodoacao 3s infinite linear;
+    z-index: 2;
+}
+
+@keyframes animacaoimgprocessodoacao {
+
+    0% { rotate: 0deg;}
+    33% { rotate: 5deg;}
+    66% { rotate: -5deg;}
+    100% { rotate: 0deg;}
+
 }
 
 .tituloprocessosdoacao{
@@ -416,7 +436,7 @@ body.active{
     background-color: rgb(206, 241, 202);
     transform: translate(-0% , -50%);
     top: 40%;
-    z-index: 2;
+    z-index: 0;
 }
 
 .backlinepd{
@@ -426,6 +446,8 @@ body.active{
     background-color: rgb(206, 241, 202);
     transform: translate(-0% , -50%);
     top: 37.7%;
+    z-index: 0;
+
 }
 
 /* Sistema de Pontos */
