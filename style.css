@@ -11,6 +11,7 @@ html,body{
 	height: 100%;
     background-color: rgb(3, 8, 41);
     overflow: auto;
+    scroll-behavior: smooth;
 }
 
 body.active{
@@ -80,7 +81,7 @@ body.active{
     top: 49px;
     display: block;
     overflow: hidden;
-    transition: 0.5s linear;
+    transition: height 0.3s linear;
     z-index: 999;
     overflow-y: visible;
 }
@@ -163,7 +164,9 @@ body.active{
     width: 100%;
     position: absolute;
     top: 50px;
-    background-color: rgb(9, 16, 63);;
+    background-color: rgb(9, 16, 63);
+    overflow-x: hidden;
+
 }
 
 .sobreoprojetopaginainicial{
@@ -201,15 +204,16 @@ body.active{
 .areaporqueadotar{
     background-color: rgb(3, 8, 41);
     border-radius: 15px 15px 0px 0px;
-    animation: subirocachorro 0.8s linear;
+    animation: subirocachorro 0.5s linear;
     padding-bottom: 5px;
     padding-top: 40px;
+    opacity: 100%;
 }
 
 @keyframes subirocachorro {
     
-    0% { margin-top: 50px;}
-    100% { margin-top: 0px;}
+    0% { margin-top: 50px; opacity: 0%;}
+    100% { margin-top: 0px; opacity: 100%;}
 
 }
 
@@ -323,13 +327,90 @@ body.active{
     border-radius: px 0px 15px 15px;
 }
 
+/* #DOAÇAO DE RAÇAO */
+/* #DOAÇAO DE RAÇAO */
+/* #DOAÇAO DE RAÇAO */
+
+.sobreracaopaginainicial{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(9, 16, 63);
+    border-radius: 20px 20px 20px 20px;
+    margin-top: -10px;
+}
+
+.paragraforacaopaginainicial{
+    margin-left: 22px;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(67, 74, 124);
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.paragraforacaopaginainicial>a{
+    text-decoration: none;
+    color: rgb(50, 226, 50);;
+}
+
+.processosdoacaopaginainicial{
+    height: 200px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    border-radius: 15px;
+}
+
+.pdtopicoum , .pdtopicodois , .pdtopicotres , .pdtopicoquatro , .pdtopicocinco{
+    height: 200px;
+    min-width: 100%;
+    background-color: white;
+    scroll-snap-align: center
+}
+
+.backgroundprocessodoacaoimg{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(202, 237, 241);
+    border-radius: 50%;
+    margin: 10px auto;
+    margin-top: 30px;
+}
+
+.lastbackgroundprocessodoacaoimg{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(202, 237, 241);
+    border-radius: 50%;
+    margin: 10px auto;
+    margin-top: 30px;
+}
+
+.tituloprocessosdoacao{
+    text-align: center;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+.tituloprocessosdoacao>a{
+    text-decoration: none;
+    color: rgb(50, 226, 50);
+}
+
 /* Sistema de Pontos */
 
 /* Sistema de Pontos */
 
 .sistemadepontos{
     margin-top: -10px;
-    background-color: rgb(9, 16, 63);;
+    background-color: rgb(3, 8, 41);;
     border-radius: 15px 15px 0px 0px;
     transition: 1s;
     padding-bottom: 50px;
@@ -357,7 +438,7 @@ body.active{
 
 .paragrafosistemadepontospaginainicial>a{
     text-decoration: none;
-    color: rgb(50, 226, 50);;
+    color: rgb(50, 226, 50);
 }
 
 .flexsistemadepontos>img{
@@ -367,18 +448,6 @@ body.active{
 
 .flexsistemadepontos{
     display: flex;
-}
-
-/* #Foto de seu Pet */
-
-/* #Foto de seu Pet */
-
-.fotodoseupet{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: rgb(3, 8, 41);
-    border-radius: 20px 20px 20px 20px;
-    margin-top: -10px;
 }
 
 
@@ -670,7 +739,7 @@ body.active{
     color: rgb(170, 170, 170);
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
     font-size: 13px;
     text-align: center;
 }
@@ -724,7 +793,7 @@ body.active{
 .loginpage{
     display: block;
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
     height: 100%;
     width: 100%;
     background-image: linear-gradient( to top , rgb(9, 17, 74) , rgb(3, 8, 41) );
@@ -768,7 +837,7 @@ body.active{
 
 
 .fieldsetloginpage{
-    height: 500px;
+    height: 490px;
     width: 90%;
     margin: 0 auto;
     border: none;
@@ -838,7 +907,7 @@ body.active{
     font-size: 13px;
     text-decoration: none;
     position: absolute;
-    top: 215px;
+    top: 185px;
     right: 50px;
     float: right;
     color: white;
@@ -944,6 +1013,14 @@ body.active{
 
 /* CORREÇAO PARA DISPOSITIVOS MOBILE ANTIGO*/
 
+@media (max-width: 360px) {
+
+.formloginpage{
+    top: 65px;
+}
+
+}
+
 @media (max-width: 340px) {
 
 .titulosobreoprojetopaginainicial{
@@ -994,6 +1071,34 @@ body.active{
     top: 145px;
     margin-right: 20px;
     width: 110px;
+}
+
+/*Area login corracao dispositivos pequeno*/
+
+.animatedlogin{
+    display: none;
+}
+
+.fieldsetloginpage{
+    height: 350px;
+}
+
+.formloginpage{
+    top: 60px;
+}
+
+.fieldsetloginpage>h1{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.inputssendbox>input{
+    height: 35px;
+    width: 50%;
+}
+
+.forgotpassword{
+    top: 160px;
 }
 
 }
