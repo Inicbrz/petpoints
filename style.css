@@ -282,7 +282,7 @@ body.active{
 
 .mais5motivos{
     font-size: 15px;
-    color: cyan;
+    color: rgb(50, 226, 50);
     padding-top: 05px;
     padding-right: 42px;
     padding-bottom: 10px;
@@ -351,14 +351,14 @@ body.active{
 
 .paragraforacaopaginainicial>a{
     text-decoration: none;
-    color: cyan;
+    color: rgb(50, 226, 50);;
 }
 
 .processosdoacaopaginainicial{
     height: 200px;
     width: 90%;
     margin: 0 auto;
-    background-color: rgb(165, 238, 253);
+    background-color: rgb(255, 255, 255);
     margin-top: 20px;
     display: flex;
     overflow: hidden;
@@ -371,14 +371,14 @@ body.active{
 .pdtopicoum , .pdtopicodois , .pdtopicotres , .pdtopicoquatro , .pdtopicocinco{
     height: 200px;
     min-width: 100%;
-    background-color: rgb(165, 238, 253);
+    background-color: rgb(255, 255, 255);
     scroll-snap-align: center
 }
 
 .backgroundprocessodoacaoimg{
     height: 80px;
     width: 80px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(206, 241, 202);
     border-radius: 50%;
     margin: 10px auto;
     margin-top: 30px;
@@ -387,23 +387,45 @@ body.active{
 .lastbackgroundprocessodoacaoimg{
     height: 80px;
     width: 80px;
-    background-color: white;
+    background-color: rgb(206, 241, 202);
     border-radius: 50%;
     margin: 10px auto;
     margin-top: 30px;
+}
+
+.lastbackgroundprocessodoacaoimg>img{
+    width: 100px;
 }
 
 .tituloprocessosdoacao{
     text-align: center;
     font-size: 14px;
     padding: 0px 20px;
-    color: black;
-    font-weight: 500;
 }
 
 .tituloprocessosdoacao>a{
-    color: rgb(24, 103, 109);
-    text-decoration: underline;
+    text-decoration: none;
+    color: rgb(50, 226, 50);
+}
+
+.frontlinepd{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    height: 5px;
+    background-color: rgb(206, 241, 202);
+    transform: translate(-0% , -50%);
+    top: 40%;
+    z-index: 2;
+}
+
+.backlinepd{
+    width: 50%;
+    position: relative;
+    height: 5px;
+    background-color: rgb(206, 241, 202);
+    transform: translate(-0% , -50%);
+    top: 37.7%;
 }
 
 /* Sistema de Pontos */
@@ -440,7 +462,7 @@ body.active{
 
 .paragrafosistemadepontospaginainicial>a{
     text-decoration: none;
-    color: cyan;
+    color: rgb(50, 226, 50);
 }
 
 .flexsistemadepontos>img{
@@ -495,7 +517,7 @@ body.active{
 }
 
 #metaaumentar>p{
-    color: cyan;
+    color: rgb(82, 240, 95);
     margin-left: 20px;
     font-size: 17px;
 }
@@ -519,7 +541,7 @@ body.active{
 .dadosadocao>p{
     position: relative;
     top: 40px;
-    color: cyan;
+    color: rgb(82, 240, 95);
     margin-left: 20px;
     font-size: 17px;
     margin-bottom: 10px;
