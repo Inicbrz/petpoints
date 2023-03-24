@@ -377,10 +377,26 @@ body.active{
 
 .pd1>img{
     margin-top: -5px;
-    margin-left: -10px;
+    margin-left: -9px;
     width: 100px;
     rotate: 0deg;
-    animation: animacaoimgprocessodoacao 2s infinite linear;
+    animation: animacaoimgprocessodoacao 2.5s infinite linear;
+}
+
+.pd2>img{
+    margin-top: -20px;
+    margin-left: -9px;
+    width: 110px;
+    rotate: 0deg;
+    animation: animacaoimgprocessodoacao 2.5s infinite linear;
+}
+
+.pd3>img{
+    margin-top: -10px;
+    margin-left: -12px;
+    width: 110px;
+    rotate: 0deg;
+    animation: animacaoimgprocessodoacao 2.5s infinite linear;
 }
 
 .backgroundprocessodoacaoimg{
@@ -392,27 +408,19 @@ body.active{
     margin-top: 30px;
 }
 
-.lastbackgroundprocessodoacaoimg{
-    height: 80px;
-    width: 80px;
-    background-color: rgb(206, 241, 202);
-    border-radius: 50%;
-    margin: 10px auto;
-    margin-top: 30px;
-}
-
-.lastbackgroundprocessodoacaoimg>img{
+.pd5>img{
     width: 100px;
     rotate: 0deg;
-    animation: animacaoimgprocessodoacao 3s infinite linear;
+    animation: animacaoimgprocessodoacao 2.5s infinite linear;
     z-index: 2;
 }
 
 @keyframes animacaoimgprocessodoacao {
 
     0% { rotate: 0deg;}
-    33% { rotate: 5deg;}
-    66% { rotate: -5deg;}
+    25% { rotate: 4deg;}
+    50% { rotate: 0deg;}
+    75% { rotate: -4deg;}
     100% { rotate: 0deg;}
 
 }
@@ -429,9 +437,10 @@ body.active{
 }
 
 .frontlinepd{
-    width: 50%;
+    width: 15px;
+    rotate: 135deg;
     position: relative;
-    left: 50%;
+    left: calc(50% + 50px);
     height: 5px;
     background-color: rgb(206, 241, 202);
     transform: translate(-0% , -50%);
@@ -439,13 +448,22 @@ body.active{
     z-index: 0;
 }
 
+.frontlinepd::after{
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 5px;
+    background-color: rgb(206, 241, 202);
+}
+
+
 .backlinepd{
     width: 50%;
     position: relative;
     height: 5px;
     background-color: rgb(206, 241, 202);
     transform: translate(-0% , -50%);
-    top: 37.7%;
+    top: 37.5%;
     z-index: 0;
 
 }
