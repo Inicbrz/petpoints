@@ -22,7 +22,7 @@ body.active{
 .menudenavegacao{
     position: fixed;
     margin-top: 0px;
-    height: 40px;
+    height: 60px;
     width: 100%;
     background-color: rgb(3, 8, 41) ;
     display: flex;
@@ -63,18 +63,18 @@ body.active{
 /*Topicos de navegaçao*/
 
 .topicosnavegacao{
-    margin-top: 10px;
+    margin-top: 18px;
     color: white;
-    font-size: 15px;
+    font-size: 17px;
     list-style: none;
     margin-right: 30px;
 }
 
 .profilepaginainicial{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     position: absolute;
-    top: 6px;
+    top: 9px;
     right: 50px;
     background-color: white;
     border-radius: 50%;
@@ -105,7 +105,7 @@ body.active{
     background-color: rgb(9, 16, 63);
     overflow-x: hidden;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 70px;
 }
 
 .sobreoprojetopaginainicial{
@@ -599,11 +599,10 @@ body.active{
 }
 
 .formcadastropage{
-    height: 650px;
+    height: 100%;
     width: 100%;
     background-color: transparent;
     position: relative;
-    top: 30px;
     margin: 0 auto;
     border-radius: 15px;
     overflow: hidden;
@@ -639,9 +638,12 @@ body.active{
 .fieldsetcadastropage{
     height: 500px;
     width: 600px;
-    margin: 0 auto;
     border: none;
     z-index: 1;
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 50%;
 }
 
 .fieldsetcadastropage>h1{
@@ -738,11 +740,11 @@ body.active{
 
 .areafinalcadastropage{
     position: relative;
-    top: 50px;
     color: rgb(170, 170, 170);
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     font-size: 13px;
     text-align: center;
 }
@@ -805,11 +807,12 @@ body.active{
 
 .formloginpage{
     position: relative;
-    top: 90px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
     overflow: hidden;
     width: 600px;
     background-color: transparent;
-    margin: 0 auto;
     border-radius: 15px;
     z-index: 2;
 }
@@ -956,9 +959,10 @@ body.active{
 .animatedlogin{
     width: 120px;
     position: absolute;
-    top: 370px;
-    right: 25px;
-    margin-right: 5px;
+    transform: translate(-50% -50%);
+    left: 50%;
+    top: 372px;
+    margin-left: 35px;
     z-index: 2;
     cursor: pointer;
     animation: imglogin 1.3s , imgloginrotate 2s infinite linear ;
@@ -977,15 +981,20 @@ body.active{
     100% {rotate: 0deg;}
 }
 
+.areainformacaodogloginbox{
+    width: 250px;
+    margin: 0 auto;
+}
+
 .areainformacaodoglogin{
-    margin-top: 40px;
-    margin-left: 50px;
-    width: 65%;
+    margin-top: 25px;
+    margin-left: 0px;
+    width: 82%;
     overflow: hidden;
 }
 
 .informacaodoglogin{
-    height: 70px;
+    height: 80px;
     width: 100%;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
@@ -993,26 +1002,74 @@ body.active{
     overflow: hidden;
     opacity: 0%;
     position: relative;
-    left: 250px;
+    left: 270px;
 }
 
 .informacaodoglogin.active{
     background-color: rgb(255, 255, 255);
-    height: 70px;
+    height: 80px;
     opacity: 100%;
     left: 0px;
 
 }
 
 .informacaodoglogin>p{
-    font-size: 12px;
-    padding-right: 50px;
+    font-size: 11px;
+    padding-right: 20px;
     padding-left: 15px;
     position: relative;
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
 }
+
+/* AREA SOBRE*/
+/* AREA SOBRE*/
+
+
+.sobrepage{
+    width: 100%;
+    height: 100%;
+    background-image: url(stars.png);
+    background-color: black;
+} 
+
+.sobresobrepage{
+    color: white; 
+    height:auto;
+    width: 75%;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+} 
+
+.imgsobresobre{
+
+ width: 100px;
+ float: right;
+}
+.formsobresobre{  
+    width: 75%; 
+    margin: 150px auto;
+}
+.formsobresobre>input{
+    background-color: whitesmoke;  
+    height: 80px;
+    width: 200px;   
+    border-radius: 30px;
+}
+
+/* CORREÇAO PARA DISPOSITIVOS MOBILE ANTIGO*/
+
+@media (max-width: 361px) {
+
+.formloginpage{
+    top: 65px;
+}
+
+}
+
+
 
 
 @media (max-width: 600px) {
@@ -1697,7 +1754,7 @@ body.active{
 }
 
 .formcadastropage{
-    height: 650px;
+    height: calc(100% - 30px);
     width: 100%;
     background-color: transparent;
     position: relative;
@@ -1737,9 +1794,11 @@ body.active{
 .fieldsetcadastropage{
     height: 500px;
     width: 90%;
-    margin: 0 auto;
     border: none;
     z-index: 1;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 50%;
 }
 
 .fieldsetcadastropage>h1{
@@ -1836,11 +1895,11 @@ body.active{
 
 .areafinalcadastropage{
     position: relative;
-    top: 50px;
+    top: 20px;
     color: rgb(170, 170, 170);
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     font-size: 13px;
     text-align: center;
 }
@@ -1852,10 +1911,10 @@ body.active{
 
 .mato{
     width: 120px;
-    position: absolute;
-    top: 140px;
-    right: 10px;
-    margin-right: 5px;
+    float: right;
+    position: relative;
+    top: -400px;
+    left: 20px;
     z-index: 2;
     cursor: pointer;
     animation: imgcadastro 1.3s , imgcadastrorotate 2s infinite linear ;
@@ -1903,6 +1962,8 @@ body.active{
 .formloginpage{
     position: relative;
     top: 110px;
+    transform: translate(0%);
+    left: 0%;
     overflow: hidden;
     width: 100%;
     background-color: transparent;
@@ -1938,7 +1999,7 @@ body.active{
 
 
 .fieldsetloginpage{
-    height: 490px;
+    height: 500px;
     width: 90%;
     margin: 0 auto;
     border: none;
@@ -2005,11 +2066,14 @@ body.active{
 }
 
 .forgotpassword{
-    display: block;
-    font-size: 13px;
     position: relative;
-    top: -75px;
-    left: 56%;
+    font-size: 13px;
+    text-align: right;
+    padding: 0% 8%;
+    top: -76px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
     text-decoration: none;
     color: white;
     z-index: 1000;
@@ -2055,9 +2119,10 @@ body.active{
 .animatedlogin{
     width: 120px;
     position: absolute;
-    top: 370px;
-    right: 25px;
-    margin-right: 5px;
+    transform: translate(-50% -50%);
+    left: 50%;
+    top: 372px;
+    margin-left: 35px;
     z-index: 2;
     cursor: pointer;
     animation: imglogin 1.3s , imgloginrotate 2s infinite linear ;
@@ -2076,15 +2141,20 @@ body.active{
     100% {rotate: 0deg;}
 }
 
+.areainformacaodogloginbox{
+    width: 250px;
+    margin: 0 auto;
+}
+
 .areainformacaodoglogin{
-    margin-top: 40px;
-    margin-left: 50px;
-    width: 65%;
+    margin-top: 25px;
+    margin-left: 0px;
+    width: 82%;
     overflow: hidden;
 }
 
 .informacaodoglogin{
-    height: 70px;
+    height: 80px;
     width: 100%;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
@@ -2092,12 +2162,12 @@ body.active{
     overflow: hidden;
     opacity: 0%;
     position: relative;
-    left: 250px;
+    left: 270px;
 }
 
 .informacaodoglogin.active{
     background-color: rgb(255, 255, 255);
-    height: 70px;
+    height: 80px;
     opacity: 100%;
     left: 0px;
 
@@ -2112,6 +2182,7 @@ body.active{
     top: 50%;
     left: 50%;
 }
+
 
 }
 
