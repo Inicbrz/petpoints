@@ -122,18 +122,29 @@ body.active{
     font-weight: 600;
     color: white;
     padding-right: 0%;
+    text-align: center;
 }
 
 .paragrafosobreoprojetopaginainicial{
     font-size: 20px;
     font-weight: 300;
     color: white;
-    margin-top: 5px;
-    padding-right: 5px;
+    margin-top: 20px;
     text-align: left;
-    padding-right: 20%;
     min-width: 550px;
+    text-align: center;
+    
+}
 
+.gamificationbutton{
+    transform: translate(-50%);
+    position: relative;
+    left: 50%;
+    width: 60%;
+    height: 80px;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-size: 2vh;
 }
 
 
@@ -198,11 +209,11 @@ body.active{
     font-weight: 300;
     margin-right: 5px;
     font-weight: 600;
+    text-align: center;
+
 }
 
 .paragrafosobreadotarpaginainicial{
-    padding-right: 30px;
-    padding-left: 29px;
     font-size: 20px;
     font-weight: 300;
     color: white;
@@ -210,6 +221,7 @@ body.active{
     width: 100%;
     padding-bottom: 0px;
     background-color: rgb(5, 11, 50);
+    text-align: center;
 }
 
 .paragrafosobreadotarpaginainicial>img{
@@ -228,9 +240,8 @@ body.active{
     font-size: 20px;
     color: rgb(50, 226, 50);
     padding-top: 05px;
-
+    text-align: center;
     padding-bottom: 10px;
-    padding-left: 29px;
     width: 100%;
     background-color: rgb(5, 11, 50);
     display: none;
@@ -284,6 +295,7 @@ body.active{
 }
 
 .paragraforacaopaginainicial{
+    text-align: center;
     font-size: 20px;
     font-weight: 300;
     color: white;
@@ -298,22 +310,23 @@ body.active{
 
 .processosdoacaopaginainicial{
     height: 300px;
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     margin-top: 40px;
     display: flex;
-    overflow: hidden;
-    overflow-x: scroll;
+    outline: none;
+    overflow: scroll;
+    flex-direction: column;
     scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
+    scroll-snap-type: y mandatory;
     border-radius: 15px;
 }
 
 .pdtopicoum , .pdtopicodois , .pdtopicotres , .pdtopicoquatro , .pdtopicocinco{
-    height: 00px;
+    min-height: 300px;
     min-width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(252, 252, 252);
     scroll-snap-align: center
 }
 
@@ -427,10 +440,10 @@ body.active{
 
 .titulosistemadepontospaginainicial{
     font-size: 30px;
-    font-weight: 300;
     font-weight: 600;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
+    margin: 0 auto;
 }
 
 .paragrafosistemadepontospaginainicial{
@@ -439,7 +452,7 @@ body.active{
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
     margin-top: 10px;
-
+    text-align: center;
 }
 
 .paragrafosistemadepontospaginainicial>a{
@@ -1027,37 +1040,6 @@ body.active{
 /* AREA SOBRE*/
 
 
-.sobrepage{
-    width: 100%;
-    height: 100%;
-    background-image: url(stars.png);
-    background-color: black;
-} 
-
-.sobresobrepage{
-    color: white; 
-    height:auto;
-    width: 75%;
-    position: relative;
-    top: 100px;
-    margin: 0 auto;
-} 
-
-.imgsobresobre{
-
- width: 100px;
- float: right;
-}
-.formsobresobre{  
-    width: 75%; 
-    margin: 150px auto;
-}
-.formsobresobre>input{
-    background-color: whitesmoke;  
-    height: 80px;
-    width: 200px;   
-    border-radius: 30px;
-}
 
 /* CORREÇAO PARA DISPOSITIVOS MOBILE ANTIGO*/
 
@@ -1179,7 +1161,7 @@ body.active{
 /*Topicos de navegaçao*/
 
 .topicosnavegacao{
-    padding: 25px 20px;
+    padding: 10px 20px;
     background-color: rgb(9, 16, 63);
     color: white;
     border-bottom: 2px solid  rgb(8, 16, 75);
@@ -1201,7 +1183,7 @@ body.active{
 }
 
 .topicosnavegacaosobre{
-    padding: 25px 50px;
+    padding: 15px 50px;
     background-color: rgb(9, 16, 63);;
     color: white;
     border-bottom: 2px solid  rgb(8, 16, 75);
@@ -1270,6 +1252,7 @@ body.active{
     font-weight: 600;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
+    text-align: initial;
 }
 
 .paragrafosobreoprojetopaginainicial{
@@ -1282,6 +1265,21 @@ body.active{
     padding-right: 5px;
     text-align: left;
     min-width: 0px;
+    text-align: initial;
+
+}
+
+.gamificationbutton{
+    margin-left: 22px;
+    width: 70%;
+    height: 50px;
+    transform: translate(0%);
+    font-size: 15px;
+    position: initial;
+    left: 0%;
+    top: 0%;
+    margin-top: 20px;
+    border-radius: 0px 15px 15px;
 }
 
 
@@ -1347,6 +1345,7 @@ body.active{
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
     margin-right: 5px;
     font-weight: 600;
+    text-align: initial;
 }
 
 .paragrafosobreadotarpaginainicial{
@@ -1360,6 +1359,7 @@ body.active{
     width: 100%;
     padding-bottom: 0px;
     background-color: rgb(3, 8, 41);
+    text-align: initial;
 }
 
 .paragrafosobreadotarpaginainicial>img{
@@ -1369,6 +1369,7 @@ body.active{
     margin-left: -30px;
     margin-top: 10px;
     filter: invert();
+    text-align: initial;
 }
 
 
@@ -1441,6 +1442,7 @@ body.active{
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
     margin-top: 10px;
     padding-right: 10px;
+    text-align: initial;
 }
 
 .paragraforacaopaginainicial>a{
@@ -1582,6 +1584,7 @@ body.active{
     font-weight: 600;
     color: white;
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
+    text-align: initial;
 }
 
 .paragrafosistemadepontospaginainicial{
@@ -1592,6 +1595,7 @@ body.active{
     text-shadow: 2px 2px 5px rgb(67, 74, 124);
     margin-top: 10px;
     padding-right: 10px;
+    text-align: initial;
 }
 
 .paragrafosistemadepontospaginainicial>a{
@@ -1962,12 +1966,12 @@ body.active{
 .formloginpage{
     position: relative;
     top: 110px;
-    transform: translate(0%);
-    left: 0%;
+    transform: translate(-50,-50%);
+    left: 50%;
+    top: 50%;
     overflow: hidden;
     width: 100%;
     background-color: transparent;
-    margin: 0 auto;
     border-radius: 15px;
     z-index: 2;
 }
@@ -2191,10 +2195,6 @@ body.active{
 
 @media (max-width: 361px) {
 
-.formloginpage{
-    top: 65px;
-}
-
 }
 
 @media (max-width: 340px) {
@@ -2259,8 +2259,8 @@ body.active{
     height: 350px;
 }
 
-.formloginpage{
-    top: 60px;
+.formcadastropage{
+    margin-top: 40px;
 }
 
 .fieldsetloginpage>h1{
